@@ -1,4 +1,25 @@
 @charset "utf-8";
+#fp-nav ul li .fp-tooltip {
+  background-color: #fff;
+  padding: 5px 20px;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  top: -5px;
+
+}
+#fp-nav ul li{
+  margin: 16px;
+}
+#fp-nav ul li .fp-tooltip.on {
+  width: auto;
+  opacity: 1;
+}
+#fp-nav ul li a span{
+  background-color: rgb(31, 80, 82);
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -52,4 +73,7 @@
 .type a:hover {
   color: #fff;
   box-shadow: -85px 0 0 0 inset #3d3d3d, +85px 0 0 0 inset #3d3d3d;
+}
+.typed-cursor {
+  display: none;
 }
