@@ -3,6 +3,14 @@ $("document").ready(function () {
     stringsElement: "#typed",
     typeSpeed: 100,
   });
+  // web-swiper
+  const webSwiper = new Swiper(".swiper .web-swiper", {
+    autoplay: {
+      delay: 5000,
+    },
+    slidesPerView: 1,
+    loop: true,
+  });
   // 없는것을 임의로 만들어둠 false 일때 실행하지 않음
   // 이걸 true로 만들어줘서 왔다갔다 할때 실행되지 않도록 하는 원리...
   // 프로그래스바가 중첩으로 실행되는 것을 막아줌
